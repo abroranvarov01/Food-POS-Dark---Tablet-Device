@@ -44,7 +44,7 @@ body {
   max-width: 1240px;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 120px;
+  padding-right: 20px;
   padding-left: 20px;
 }
 
@@ -158,4 +158,197 @@ body {
   color: var(--primary-color);
   padding-bottom: 13px;
   border-bottom: solid 3px var(--primary-color);
+}
+.main__wrapper {
+  display: flex;
+  gap: 36px;
+}
+.tab_wrap {
+  padding-left: 100px;
+}
+.products_sec {
+  position: relative;
+  border-radius: 8px;
+  padding: 48px;
+  width: 509px;
+  background-color: var(--base---dark-bg-2);
+}
+.products__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--white);
+  margin-bottom: 24px;
+}
+.products__category_list {
+  width: 214px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.products__category_btn {
+  border: 1px solid var(--base---dark-line);
+  border-radius: 8px;
+  padding: 7px 12px;
+  background-color: var(--base---dark-bg-2);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--primary-color);
+}
+.products__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.products__text_wrap {
+  display: flex;
+  gap: 43px;
+  align-items: center;
+}
+.products__description_text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--white);
+}
+.products_list {
+  padding-top: 24px;
+  border-top: 1px solid var(--base---dark-line);
+}
+.products_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.products_item_main {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.pr_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.products_item_title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--white);
+}
+.products_item_price {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  color: var(--text-light);
+}
+.products_item_sum {
+  border: 1px solid var(--base---dark-line);
+  border-radius: 8px;
+  padding: 14px 19px 14px 19px;
+  background-color: var(--base---form-bg);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--white);
+}
+.products_item_cost {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: right;
+  color: var(--white);
+}
+.products_item_delete {
+  border: 1px solid var(--accents---red);
+  border-radius: 8px;
+  padding: 14px;
+  background-color: transparent;
+}
+.products_item_des {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+.pay_btn {
+  margin-top: 42px;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 116px 14px 116px;
+  box-shadow: 0 8px 24px 0 rgba(234, 124, 105, 0.3);
+  background-color: var(--primary-color);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--base---bg);
+  cursor: pointer;
+}
+.discount {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--text-light);
+}
+.discount_cost {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: right;
+  color: var(--white);
+}
+.Sub_total {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--text-light);
+}
+.Sub_total_cost {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: right;
+  color: var(--white);
+}
+.sum__banner {
+  bottom: 0;
+  position: fixed;
+  width: 361px;
+  padding-top: 24px;
+  border-top: 1px solid;
+  color: var(--base---dark-line);
+  left: 50%;
+  transform: translatex(35%);
+}
+
+.tw {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.tw_2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.products__category_list {
+  width: 300px;
+  gap: 8px;
+}
+
+.products_list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px;
 }

@@ -9,66 +9,128 @@
 </head>
 
 <body>
-    <header class="site__header">
-        <div class="container">
-            <div class="header__block">
-                <div>
-                    <h1 class="header__title">
-                        Jaegar Resto
-                    </h1>
-                    <p class="header__text">
-                        Tuesday, 2 Feb 2021
+    <div class="main__wrapper">
+        <div class="tab_wrap">
+            <header class="site__header">
+                <div class="container">
+                    <div class="header__block">
+                        <div>
+                            <h1 class="header__title">
+                                Jaegar Resto
+                            </h1>
+                            <p class="header__text">
+                                Tuesday, 2 Feb 2021
+                            </p>
+                        </div>
+                        <div>
+                            <form class="header__form">
+                                <input class="header__search" type="text" placeholder="Search for food, coffe, etc..">
+                                <button type="submit" class="header__search__btn">
+                                    <img src="./img/search_btn.svg" alt="">
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section class="Tab_section">
+                    <div class="container">
+                        <div class="Tab_block">
+                            <div class="sec_1">
+                                <ul class="tab__btn__list">
+                                    <li>
+                                        <button data-path="hotdishes" class=" tab_btn">
+                                            Hot Dishes
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button data-path="colddishes" class="tab_btn">
+                                            Cold Dishes
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button data-path="soup" class="tab_btn">
+                                            Soup
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button data-path="grill" class="tab_btn">
+                                            Grill
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button data-path="dessert" class="tab_btn">
+                                            Dessert
+                                        </button>
+                                    </li>
+                                </ul>
+                                <ul class="tab_items__list">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <div class="products_sec">
+            <h2 class="products__title">
+                Orders #34562
+            </h2>
+            <ul class="products__category_list">
+                <li class="products__category_item">
+                    <button class="products__category_btn">
+                        Dine In
+                    </button>
+                </li>
+                <li class="products__category_item">
+                    <button class="products__category_btn">
+                        To Go
+                    </button>
+                </li>
+                <li class="products__category_item">
+                    <button class="products__category_btn">
+                        Delivery
+                    </button>
+                </li>
+            </ul>
+            <div class="products__description">
+                <p class="products__description_text">
+                    Item
+                </p>
+                <div class="products__text_wrap">
+                    <p class="products__description_text">
+                        Qty
+                    </p>
+                    <p class="products__description_text">
+                        Price
                     </p>
                 </div>
-                <div>
-                    <form class="header__form">
-                        <input class="header__search" type="text" placeholder="Search for food, coffe, etc..">
-                        <button type="submit" class="header__search__btn">
-                            <img src="./img/search_btn.svg" alt="">
-                        </button>
-                    </form>
+            </div>
+            <ul class="products_list">
+            </ul>
+            <div class="sum__banner">
+                <div class="tw">
+                    <p class="discount">
+                        Discount
+                    </p>
+                    <p class="discount_cost">
+                        $0
+                    </p>
                 </div>
+                <div class="tw_2">
+                    <p class="Sub_total">
+                        Sub total
+                    </p>
+                    <p class="Sub_total_cost">
+                    </p>
+                </div>
+                <button class="pay_btn">
+                    Continue to Payment
+                </button>
             </div>
         </div>
-    </header>
-    <main>
-        <section class="Tab_section">
-            <div class="container">
-                <div class="Tab_block">
-                    <ul class="tab__btn__list">
-                        <li>
-                            <button data-path="hotdishes" class=" tab_btn">
-                                Hot Dishes
-                            </button>
-                        </li>
-                        <li>
-                            <button data-path="colddishes" class="tab_btn">
-                                Cold Dishes
-                            </button>
-                        </li>
-                        <li>
-                            <button data-path="soup" class="tab_btn">
-                                Soup
-                            </button>
-                        </li>
-                        <li>
-                            <button data-path="grill" class="tab_btn">
-                                Grill
-                            </button>
-                        </li>
-                        <li>
-                            <button data-path="dessert" class="tab_btn">
-                                Dessert
-                            </button>
-                        </li>
-                    </ul>
-                    <ul class="tab_items__list">
-
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </main>
+    </div>
     <script type="module" src="./js/main.js"></script>
 </body>
 
